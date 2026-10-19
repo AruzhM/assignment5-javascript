@@ -69,3 +69,149 @@ button:hover {
     font-weight: bold;
     color: #ff91c8;
 }
+
+
+.calculator {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f3efff;
+    color: #333;
+    border-radius: 15px;
+}
+
+.calculator label {
+    display: block;
+    margin: 15px 0 8px;
+    font-weight: bold;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #a29bfe;
+    border-radius: 8px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.calculator-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.calculator-buttons button {
+    background-color: #a29bfe;
+    color: white;
+    font-size: 22px;
+    flex: 1;
+    margin: 0;
+}
+
+.calculator-buttons button:hover {
+    background-color: #6c5ce7;
+}
+
+.calculator h3 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 18px;
+    background-color: #6c5ce7;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #a29bfe;
+}
+
+
+
+.todo-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f3efff;
+    border-radius: 15px;
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-input input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 2px solid #a29bfe;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.todo-input button {
+    white-space: nowrap;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: #333;
+    border-radius: 8px;
+}
+
+.todo-item span {
+    cursor: pointer;
+    overflow-wrap: anywhere;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.delete-btn {
+    background-color: #ff6b81;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #ee4562;
+}
+
+@media (max-width: 480px) {
+    .todo-input {
+        flex-direction: column;
+    }
+}
+
+

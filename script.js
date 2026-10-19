@@ -23,9 +23,8 @@ console.log("/:", a / b);
 console.log("%:", a % b);
 
 
-
 let firstName = "Aruzhan";
-let lastName = "Marat";
+let lastName = "Student";
 
 let fullName = firstName + " " + lastName;
 
