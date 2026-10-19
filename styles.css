@@ -19,3 +19,26 @@ main {
     background-color: rgb(95, 95, 255);
     border-radius: 12px;
 }
+
+
+#styleBox {
+    background-color: #000000;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+button {
+    background-color: #517093;
+    color: #333;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6bb8ff;
+}
