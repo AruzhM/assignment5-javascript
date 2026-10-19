@@ -42,3 +42,30 @@ button {
 button:hover {
     background-color: #6bb8ff;
 }
+
+
+#mouseBox {
+    background-color: #dcd6ff;
+    color: #333;
+    padding: 50px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 20px 0;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+#textInput {
+    padding: 12px;
+    width: 100%;
+    max-width: 350px;
+    border: 2px solid #a29bfe;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#output {
+    font-weight: bold;
+    color: #ff91c8;
+}
