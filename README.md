@@ -28,3 +28,8 @@ DOM manipulation, and event handling.
 ## Author
 Aruzhan Marat
 Group: SE-2525
+
+
+## Live Website
+
+https://aruzhm.github.io/assignment5-javascript/
